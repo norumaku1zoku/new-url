@@ -3,31 +3,144 @@
 p.dela{
 font-family: 'Dela Gothic One', sans-serif;
 }
+
 p.dela{
 font-family: 'Dela Gothic One', sans-serif;
 }
+
 p.Dot{
 font-family: 'DotGothic16', sans-serif;
 text-align:center;
 color:4100B9;
 }
+
 h3.Dot{
 font-family: 'DotGothic16', sans-serif;
 text-align:cente;
   }
+
 p.hude{
 font-family: 'Yuji Boku', serif;
 text-align:center
 }
-h1.magic{
+
+h1{
 text-align:center;
 color:#FFD800;
 font-family: 'Yusei Magic', sans-serif;
 }
+
 p.mini{
   font-size:50%
       }
+
+div.center>p>a{
+text-align:center;
+ border-radius: 1px;
+  background-color:6891FF;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;} 
+div.center>p{text-align:center;
+}
+
+div.center > strong > p > a{text-align:center;
+ border-radius: 1px;
+  background-color:6891FF;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;}
+div.center > strong > p{text-align:center;}
+
 body{
  background-color:6891FF;
 }
+
+div.btn > a{text-align:center;
+ border-radius: 5px;
+  background-color:6891FF;
+  padding: 10px;
+  text-decoration: none;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;
+font-size:40px
+}
+div.btn2 > a{text-align:center;
+ border-radius: 5px;
+  background-color:6891FF;
+  padding: 10px;
+  text-decoration: none;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;
+font-size:40px
+}
+
+.nn > a{text-align:center;
+ border-radius: 1px;
+  background-color:6891FF;
+  text-decoration: none;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;
+font-size:40px
+}
+
+div.hosoku{color:
+}
+
+div.btn{
+text-align:center;
+}
+header.normal{
+z-index:999  
+top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+box-sizing: border-box;
+  transition: padding .3s;
+}
+div.btn2{
+position:flixed;
+top:0
+left:0
+}
+
+
+header.nn {
+position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+paddinf: 20px 40px;
+  transition: padding .3s;
+
+}
+
+div.osirase{
+z-index: 999;
+  top: 0;
+  left: 0;
+  width: 50%;
+  box-sizing: border-box;
+paddinf: 20px 40px;
+  transition: padding .3s;
+background-color:#66cdaa;
+
+}
+div.osirase{
+border-style:solid;
+}
+
+div.ibennto{
+position:relative;
+
+width: 50%;
+  box-sizing: border-box;
+paddinf: 20px 40px;
+  transition: padding .3s;
+background-color:#ffffe0;
+border-style:solid;
+}
+
+
 </style>
