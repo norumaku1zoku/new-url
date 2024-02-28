@@ -73,10 +73,10 @@ font-family: 'Yusei Magic', sans-serif;
 font-size:40px
 }
 
-.nn > a{text-align:center;
- border-radius: 1px;
-  background-color:6891FF;
-  text-decoration: none;
+.nn > a{
+text-align:center;
+background-color:6891FF;
+text-decoration: none;
 color:#FFD800;
 font-family: 'Yusei Magic', sans-serif;
 font-size:40px
@@ -89,13 +89,13 @@ div.btn{
 text-align:center;
 }
 header.normal{
-z-index:999  
-top: 0;
+position: fixed;
+  z-index: 999;
+  top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
-box-sizing: border-box;
-  transition: padding .3s;
+  box-sizing: border-box;
+paddinf: 20px 40px;f  transition: padding .3s;
 }
 div.btn2{
 position:flixed;
@@ -105,14 +105,16 @@ left:0
 
 
 header.nn {
+z-index:999;
 position: fixed;
-  z-index: 999;
-  top: 0;
+  top:0;
   left: 0;
   width: 100%;
+height: 11%;
   box-sizing: border-box;
-paddinf: 20px 40px;
-  transition: padding .3s;
+paddinf: 20px 40px;f  transition: padding .3s;
+background-color:6891FF;
+border-bottom-style:solid;
 
 }
 
@@ -133,11 +135,54 @@ border-style:solid;
 
 div.ibennto{
 position:relative;
+
 width: 50%;
   box-sizing: border-box;
 paddinf: 20px 40px;
   transition: padding .3s;
-background-color:ffffe0;
+background-color:#ffffe0;
 border-style:solid;
 }
+
+
+footer{
+position: fixed;
+  z-index: 998;
+bottom:0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+paddinf: 20px 40px;
+  transition: padding .3s;
+background-color:white
+}
+
+article.all{
+position: relative;
+  z-index: 999;
+  top:130;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+paddinf: 20px 40px;f
+  transition: padding .3s;
+
+}
+
+article.main{
+position: relative;
+top: 50;
+}
+.home{
+position: fixed;
+bottom:50;
+right:0;
+}
+.hh{
+position: fixed;
+bottom:0;
+left:0;
+}
+
+
 </style>
