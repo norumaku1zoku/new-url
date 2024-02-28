@@ -146,9 +146,6 @@ border-style:solid;
 
 
 footer{
-position: fixed;
-bottom:0;
-  left: 0;
   width: 100%;
   box-sizing: border-box;
 paddinf: 20px 40px;
