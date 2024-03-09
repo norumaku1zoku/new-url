@@ -55,6 +55,7 @@ div.center > strong > p{text-align:center;}
 
 body{
  background-color:6891FF;
+margin: 0px;
 }
 
 div.btn > a{text-align:center;
@@ -71,7 +72,7 @@ div.btn2 > a{text-align:center;
   background-color:6891FF;
   padding: 10px;
   text-decoration: none;
-color:#FFD800;
+color:#FFD800
 font-family: 'Yusei Magic', sans-serif;
 font-size:40px
 }
@@ -132,15 +133,14 @@ z-index: 999;
 paddinf: 20px 40px;
   transition: padding .3s;
 background-color:#66cdaa;
-
 }
 div.osirase{
 border-style:solid;
+backgroud-color:yellow;
 }
 
 div.ibennto{
 position:relative;
-
 width: 50%;
   box-sizing: border-box;
 paddinf: 20px 40px;
@@ -151,10 +151,10 @@ border-style:solid;
 
 
 footer{
-position:fixed;
-  z-index: 1;
-bottom:0;
-  left: 0;
+padding: 0px 10px;
+position:relative;
+top:45;
+right:0;
   width: 100%;
   box-sizing: border-box;
 paddinf: 20px 40px;
@@ -162,21 +162,26 @@ paddinf: 20px 40px;
 background-color:white
 }
 
+.ff{
+top:200;
+}
+
 article.all{
 position: relative;
   z-index: 10;
-  top:130;
+  top:200;
   left: 0;
   width: 100%;
   box-sizing: border-box;
-paddinf: 20px 40px;f
+paddinf: 20px 40px;
   transition: padding .3s;
+backgroud-color:yellow;
 
 }
 
 article.main{
 position: relative;
-top: 50;
+top: 60;
 }
 .home{
 position: fixed;
@@ -188,6 +193,11 @@ position: fixed;
 bottom:0;
 left:0;
 }
+.osirase{
+position: relativ;
+top:253px;
+}
+
 
 
 </style>
