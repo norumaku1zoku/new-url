@@ -141,9 +141,8 @@ border-bottom-style:solid;
 }
 
 div.ibennto{
-position:relative;
-top:5px;
-left:40px;
+position:absolute;
+left:100px;
 width: 325px;
 height:224px;
   box-sizing: border-box;
@@ -160,9 +159,8 @@ background-color:6AD4DD;
 width:325px;
 height:221px;
 z-index:100;
-position:relative;
-bottom:219px;
-left:375px;
+position:absolute;
+right:525px;
 border-style:solid;
 border-size:2px;
 border-color:#87CEFA;
@@ -173,9 +171,8 @@ background-color:6AD4DD;
 width:325px;
 height:220px;
 z-index:100;
-position:relative;
-bottom:444px;
-left:715px;
+position:absolute;
+right:100px;
 border-style:solid;
 border-size:2px;
 border-color:#87CEFA;
