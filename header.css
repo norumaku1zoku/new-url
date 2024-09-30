@@ -1,0 +1,266 @@
+header {
+       position:fixed;
+left:0;
+top:0;
+margin:0;
+padding:0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	line-height: 60px;
+background-color:6891FF;;
+	display: inline-block;
+}
+/* ロゴ */
+header .logo {
+position:absolute;
+left:0px;
+bottom:3px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 0em;
+margin:0;
+}
+.logo > a{
+display:block;
+left:0px;
+border-radius: 5px;
+  text-decoration: none;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;
+font-size:40px;
+transition: all 0.1s;
+} 
+/* ロゴアニメーション */
+.logo:hover a{
+ transform: scale(1.2);
+
+}
+
+/* メニュー */
+header ul {
+height:4em;
+position:absolute;
+top:-15px;
+right:10px;
+	padding: 0 0px 0 0;
+vertical-align:100px;
+height:50px;
+font-family: 'Dela Gothic One', sans-serif;
+}
+header li {
+height:4em;
+	display: inline-block;
+	padding: 0 6px;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+header li a {
+	color: #fff;
+  text-decoration: none;
+}
+
+/* ホームリンクのアニメーション*/
+.home_link {
+  position: relative;
+  display: inline-block;
+    width: 5em; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+.home_text {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+/* ボタンのテキスト(デフォルトのテキスト) */
+.home_text:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.home_text:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.home_link:hover .home_text:nth-child(1) {
+  top: 100%;
+}
+
+.home_link:hover .home_text:nth-child(2) {
+  top: 0;
+}
+
+/* メンバーリンクのアニメーション*/
+
+/* ボタン本体 */
+.member_link {
+  position: relative;
+  display: inline-block;
+  width: 7em; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.member_text{
+  position: absolute;
+  left: 0; 
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.member_text:nth-child(1){
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.member_text:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.member_link:hover .member_text:nth-child(1) {
+  top: 100%;
+}
+
+.member_link:hover .member_text:nth-child(2) {
+  top: 0;
+}
+/* メニューのリンクホバーで線 */
+header li a:hover span{
+	text-decoration: underline;
+}
+
+/* ボタン本体 */
+.news_link {
+  position: relative;
+  display: inline-block;
+  width: 5em; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.news_text {
+  position: absolute;
+  left: 0; 
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.news_text:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.news_text:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.news_link:hover .news_text:nth-child(1) {
+  top: 100%;
+}
+
+.news_link:hover .news_text:nth-child(2) {
+  top: 0;
+}
+
+/* その他アニメーション  */
+.sonota{
+  position: relative;
+  display: inline-block;
+  width: 4em; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.sonota_link{
+  position: absolute;
+  left: 0; 
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.sonota_link:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.sonota_link:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.sonota:hover .sonota_link:nth-child(1) {
+  top: 100%;
+}
+
+.sonota:hover .sonota_link:nth-child(2) {
+  top: 0;
+}
+/* その他 */
+div.sonota_box{
+height:auto;
+width:10em;
+position:fixed;
+background-color:white;
+border-style:solid;
+border-radius: 10px;
+right:-100%;
+transition: all 0.2s;
+top:60px;
+}
+.sonota:hover .sonota_box{
+top:60px;
+right:0;}
+
+.sonota_box:hover{
+top:60px;
+right:0;}
