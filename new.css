@@ -1,0 +1,117 @@
+header {
+       position:fixed;
+z-index:999;
+height:60px;
+border-bottom-style:solid;
+}
+
+html{
+width:100%;
+}
+body{
+background-color:green;
+}
+
+article{
+position:relative;
+top:50px;
+}
+
+
+.sonota_box:hover{
+top:60px;
+right:0;}
+/* のるまく一族の概要 */
+div.gaiyou{
+width:100%}
+
+
+.imgzokutyou{
+display:block;
+position:absolute;
+  right: 0;
+  left: 0;
+top:0;
+bottom:0;
+  margin: 0 auto;
+width:200;
+transition: all 0.3s;
+}
+
+.img_tyou_block{
+border-radius: 5px;
+display:block;
+position:absolute;
+  right: 0;
+  left: 0;
+top:100;
+bottom:0;
+background-color:white;
+width:200px;
+height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;}
+
+.img_tyou_block:hover img.imgzokutyou{
+ transform: scale(1.2);
+opacity: 0.6;}
+
+
+
+.img1zoku{
+margin:0;
+padding:0px;
+display:inline-block;
+filter: blur(10px);
+width:100%;
+height:auto;
+z-index:1;
+transition: all 0.3s;
+}
+
+/*
+.img1zoku:hover{
+filter: blur(2px);
+} */
+
+
+
+.zokutoha{
+color:white;
+font-size:200%;
+position:absolute;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.setumei{
+border-radius: 10px;
+padding-left:10px;
+position:absolute;
+top:500px;
+left: 50%;
+  transform: translate(-50%, -50%);
+border-style:solid;
+background-color:white;
+}
+
+.btn a{
+border-radius: 5px;
+  background-color:6891FF;
+  padding: 10px;
+  text-decoration: none;
+color:#FFD800;
+font-family: 'Yusei Magic', sans-serif;
+font-size:10px;
+transition: all 0.1s;
+}
+
+.btn:hover a{
+text-decoration: underline;
+font-size:13px;
+background-color:7AA2E3;
+}
+
