@@ -12,6 +12,13 @@ padding:0;
 background-color:6891FF;;
 	display: inline-block;
 }
+header {
+       position:fixed;
+z-index:999;
+height:60px;
+border-bottom-style:solid;
+}
+
 /* ロゴ */
 header .logo {
 position:absolute;
