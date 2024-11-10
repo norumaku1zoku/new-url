@@ -4,6 +4,12 @@ z-index:999;
 height:60px;
 border-bottom-style:solid;
 }
+header {
+       position:fixed;
+z-index:999;
+height:60px;
+border-bottom-style:solid;
+}
 
 html{
 width:100%;
