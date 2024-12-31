@@ -95,6 +95,9 @@ animation-duration:1s;
 }
 .backimg{
 z-index:8;
+height: 2600;
+position: relative;
+right: 500px;
 }
 
 
