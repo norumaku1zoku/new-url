@@ -143,24 +143,27 @@ background-color:7AA2E3;
 .topic{
 background-color:white;
 position:sticky;
-bottom:600;
+bottom:250;
 }
+div.topics{
+position:relative;
+display:inline-block;
+}
+
 .topicimg{
 position:absolute;
 width:500px;
-right: 0;
-  left: 0;
-  margin: 0 auto;
+left:50px;
 }
 
 .topictxt{
+text-align:center;
+top:300px;
 font-size:150%;
 display:inline-block;
-position:absolute;
-top:350px;
+position:relative;
 font-family: 'Dela Gothic One', sans-serif;
- left: 50%;
-  transform: translateX(-50%);}
+}
 .st{
 color:#ffa500;
 text-align:center;
