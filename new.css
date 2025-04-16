@@ -27,6 +27,7 @@ right:0;}
 
 /* のるまく一族の概要 */
 div.gaiyou{
+       background-color: #ffae00;
 position:relative;
 margin-bottom:100px;
 z-index:1;
