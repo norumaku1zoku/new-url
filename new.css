@@ -10,14 +10,14 @@ width:100%;
 }
 body{
 background:linear-gradient(135deg, #ffffff 50%, #00bfff 50%);
-height:2000;
        margin: 0;
 width:100%;
 }
 
 article{
 position:relative;
-top:50px;
+top:60px;
+height:350vw;
 }
 
 
@@ -28,8 +28,7 @@ right:0;}
 /* のるまく一族の概要 */
 div.gaiyou{
        background-color: #ffae00;
-position:relative;
-margin-bottom:100px;
+position:absolute;
 z-index:1;
 width:100%}
 
@@ -91,7 +90,7 @@ padding:0px;
 display:inline-block;
 filter: blur(10px);
 width:100%;
-height:auto;
+height:75vw;
 z-index:100;
 transition: all 0.3s;
 left:0;
@@ -142,21 +141,34 @@ font-size:13px;
 background-color:7AA2E3;
 }
 
+/* lock */
+
+div.lock{
+position:sticky;
+height:200vw;
+top:60px;
+}
+
 /* topics */
 .topic{
 background-color:white;
-position:sticky;
-bottom:250;
 }
+
+.topicsbox{
+display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;}
+
 div.topics{
 position:relative;
 display:inline-block;
+width:40%;
 }
 
 .topicimg{
-position:absolute;
-width:500px;
-left:50px;
+width:100%;
+left:auto;
 }
 
 .topictxt{
@@ -164,7 +176,6 @@ text-align:center;
 top:300px;
 font-size:150%;
 display:inline-block;
-position:relative;
 font-family: 'Dela Gothic One', sans-serif;
 }
 .st{
@@ -177,5 +188,4 @@ font-size:200%;
 /* fotter */
 footer{
 position:relative;
-top:800px;}
-
+}
